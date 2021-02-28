@@ -1,0 +1,32 @@
+body{
+
+    background-color: rgb(126, 126, 126);
+}
+
+.redes-sociales{
+
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    block-size: 30px;
+}
+
+.panel-redes-sociales{
+
+    width: auto;
+    height: auto;
+    background-color: rgb(165, 165, 165) ;
+    color: black;
+}
+
+a{
+    padding-top: 10px;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button{
+
+    border-radius: 10px;
+}
+
