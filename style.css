@@ -1,13 +1,18 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
 
     background-color: rgb(126, 126, 126);
 }
 
-.redes-sociales{
+.imagenes-redes-sociales{
 
     width: 40px;
     height: 40px;
-    padding: 10px;
     block-size: 30px;
 }
 
