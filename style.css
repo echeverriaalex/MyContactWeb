@@ -20,6 +20,7 @@ body{
 }
 
 a{
+    border: 2px solid cyan;
     padding-top: 10px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -34,6 +35,12 @@ a{
     
 }
 
+img, div{
+
+    width: 100%;
+    
+}
+
 button{
 
     border-radius: 10px;
@@ -42,6 +49,7 @@ button{
 
 .nav{
 
-    display: inline-table;
+    border: 10px solid yellow;
+    /*display: inline-table; */
 }
 
