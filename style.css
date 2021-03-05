@@ -5,9 +5,34 @@
 }
 
 body{
-
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(204, 204, 204);
+    width: 100%;
 }
+
+.mifoto:first-child{ 
+    
+    /*width: 90%;
+
+    margin-right: 50px;
+    margin-left: 50px;
+*/
+   
+    /*margin: auto;
+    margin-left: auto;
+    margin-right: auto;*/
+
+    /*padding-left: 5%;
+    padding-right: 5%;*/
+    flex-wrap: wrap;
+    height: 5%;
+}
+
+.mifoto{
+
+    width: 100%;
+}
+
+
 
 .imagenes-redes-sociales{
 
@@ -16,22 +41,43 @@ body{
     block-size: 30px;
 }
 
+
 .panel-redes-sociales{
 
+    padding-top: 30%;
     width: 100%;
     height: 100px;
     background-color: rgb(165, 165, 165) ;
     color: black;
 }
 
+
+section{
+
+    padding-left: 30px;
+    float: left;
+    width: 50%;
+    /*margin-left: 5px;*/
+}
+
+aside{
+
+    width: 35%;
+    height: 1%;
+    float: right;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
 a{
     border: 2px solid cyan;
+    border-style: dashed;
     padding-top: 10px;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.red-social:hover{
+.link-red-social:hover{
 
     color: red;
     background-color: springgreen;
@@ -43,18 +89,20 @@ a{
 img, div{
 
     width: 100%;
-    
+    height: 90%;
 }
 
-button{
+.presentacion{
 
-    border-radius: 10px;
-    
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 30px;    
 }
 
 .nav{
 
     border: 10px solid yellow;
     /*display: inline-table; */
+    white-space: pre-line;
 }
-
