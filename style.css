@@ -49,6 +49,7 @@ body{
     height: 100px;
     background-color: rgb(165, 165, 165) ;
     color: black;
+    display: inline-block;
 }
 
 
@@ -107,20 +108,32 @@ img, div{
     white-space: pre-line;
 }
 
+.reloj .fecha{
+
+    width: 200px;
+    height: 100px;
+    padding: 0px;
+    border-bottom: 3px solid;
+}
+
 .reloj p{
 
     display: inline-block;
+    color: rgb(10, 94, 100);
+    font-size: 30px;
 }
 
 .fecha p{
 
-    width: 20%;
-    height: 10%;
-    /*display: inline-block;*/
+    display: inline-block;
+    color: rgb(218, 77, 77);
+    font-size: 20px;    
 }
 
 .horaYfecha{
 
+    padding-top: 20px;
     border: 2px solid teal;
-    
+    width: 500px;
+    height: 200px;    
 }

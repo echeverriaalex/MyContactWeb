@@ -51,15 +51,17 @@ function actualizarReloj(){
 
     if(hour < 10)
         hour = "0" + hour;
-    document.getElementById("hour").innerHTML = hour + " : ";
+    document.getElementById("hour").innerHTML = hour + ":";
 
     if(minutes < 10)
         minutes = "0" + minutes;
-    document.getElementById("minutes").innerHTML =  minutes+ " : ";
+    document.getElementById("minutes").innerHTML =  minutes+ ":";
 
     if(seconds < 10)
         seconds = "0" + seconds;
-    document.getElementById("seconds").innerHTML = seconds;    
+    document.getElementById("seconds").innerHTML = seconds;  
+      
+    //document.getElementById("year").innerHTML = date.getFullYear();
 }
 
 function actualizarFecha(){
@@ -71,18 +73,21 @@ function actualizarFecha(){
     
     var date = new Date();
     var day = date.getDay();
+    var dayNumber = date.getDate();
     document.getElementById("day").innerHTML = days[day];
+    
+    document.getElementById("dayNumber").innerHTML = dayNumber + " de ";
 
     var month = date.getMonth();
-    document.getElementById("month").innerHTML = months[month];
+    document.getElementById("month").innerHTML = months[month] + " del ";
 
     var year = date.getFullYear();
-    document.getElementById("year").innerHTML = year;
+    document.getElementById("year").innerHTML = date.getFullYear();
 }
 
 mostrarFecha();
 //mostrarSecreto();
 var tiempoReloj = 1000; // cada 1 segundo se actualiza
-var tiempoFecha = (1000*60)*60;
+var tiempoFecha = 2000;
 setInterval(actualizarReloj, tiempoReloj);
 setInterval(actualizarFecha, tiempoFecha);
