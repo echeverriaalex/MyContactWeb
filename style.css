@@ -106,3 +106,21 @@ img, div{
     /*display: inline-table; */
     white-space: pre-line;
 }
+
+.reloj p{
+
+    display: inline-block;
+}
+
+.fecha p{
+
+    width: 20%;
+    height: 10%;
+    /*display: inline-block;*/
+}
+
+.horaYfecha{
+
+    border: 2px solid teal;
+    
+}
