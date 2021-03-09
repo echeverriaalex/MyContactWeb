@@ -14,6 +14,23 @@ function constante(){
     console.log(nombre);
 }
 
+//constante();
+
+function mostrarFotos(){
+
+    for(let i =0; i < fotos.length(); i++){
+
+        document.getElementById("mifoto").src = fotos[i];
+    }
+
+    for(foto in fotos){
+
+        //document.get
+    }
+}
+
+//mostrarFotos();
+
 function visualizarFotoFormal(){
 
     document.getElementById("mifoto").src = fotos[0];
@@ -89,5 +106,22 @@ mostrarFecha();
 //mostrarSecreto();
 var tiempoReloj = 1000; // cada 1 segundo se actualiza
 var tiempoFecha = 2000;
+
+/*
+var people = {
+
+    name = "alex",
+    lastname = "echeverria",
+    age = 23
+};
+
+
+people.name;
+
+
+person = new Person();
+person.name = "Alex Nahuel";
+*/
+
 setInterval(actualizarReloj, tiempoReloj);
 setInterval(actualizarFecha, tiempoFecha);
