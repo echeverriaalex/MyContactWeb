@@ -123,5 +123,9 @@ person = new Person();
 person.name = "Alex Nahuel";
 */
 
+var minombre= "Alex Nahuel Echeverria";
+console.log(minombre.length);
+
+
 setInterval(actualizarReloj, tiempoReloj);
 setInterval(actualizarFecha, tiempoFecha);
